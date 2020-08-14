@@ -4,8 +4,8 @@
     <title>@yield('title', 'Weibo App') - Laravel 入门教程</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
-<body>
 
+<body>
 @include('layouts._header')
 
 <div class="container">
@@ -15,5 +15,7 @@
         @include('layouts._footer')
     </div>
 </div>
+
+<script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
